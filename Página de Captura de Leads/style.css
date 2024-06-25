@@ -1,0 +1,108 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    height: 100vh;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to left , #7da3f7, #004aaa );
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   height: 100vh;
+}
+.txt-leads{
+    text-align: center;
+    
+}
+
+.txt-leads h1{
+    font-size: 35px;
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    line-height: 30px;
+}
+.txt-leads h1 span{
+    font-size: 25px;
+    text-align: justify;
+}
+.txt-leads img{
+    width: 320px;
+}
+.txt-leads p{
+    color: white;
+    font-weight: 600;
+    
+}
+.txt-leads p span{
+    font-size: 25px;
+}
+
+form{
+    padding: 40px;
+   background-color: #05050533;
+   text-align: center;
+   width: 100%;
+   border-radius: 20px;
+   
+}
+.form-leads h2{
+ color: white;
+ font-size: 28px;
+ font-weight: 700;
+ line-height: 20px;
+ margin-bottom: 50px;
+}
+.form-leads h2 span{
+    font-size: 13px;
+   }
+.input-box label{
+    display: block;
+    color: white;
+    text-align: justify;
+   
+   }
+.input-box input{
+    width: 100%;
+    padding: 9px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+}
+.btn-enviar{
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.btn-enviar input{
+    color: #e9dbdb;
+    background-color: #4987d8;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 13px 17px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.btn-enviar button{
+    border-radius: 70px;
+   border:none;
+}
+.btn-enviar button :hover{
+    transition: 0.4s;
+background-color: #0066ff;
+}

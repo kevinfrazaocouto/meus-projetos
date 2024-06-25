@@ -1,0 +1,374 @@
+@import url( "https://fonts.googleapis.com");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    border: none;
+}
+html::-webkit-scrollbar{
+    width: 0.5rem;
+}
+html::-webkit-scrollbar-track{
+    background-color: transparent;
+    
+}
+html::-webkit-scrollbar-thumb{
+    background-color: wheat;
+    border-radius: 5rem;
+}
+.background{
+    background-image: url(imagem/home-img.jpeg)
+   
+}
+.background{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+.logo img{
+ 
+    width: 75px;
+    height: auto;
+    margin-left: 5rem
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap:3rem ;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: wheat;
+    transition: 0.3s;
+}
+.c-icon{
+    margin-right: 5rem;
+    
+}
+.icon ion-icon {
+    color: wheat;
+    font-size: 2rem;
+    cursor: pointer;
+    
+    
+
+}
+ul li a:hover{
+    text-transform: capitalize;
+    color: rgb(101, 118, 3);
+    border-bottom: solid 1px;
+    
+}
+
+.c-title{
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+.c-title  h1{
+    color:rgb(255, 255, 255);
+    font-size: 4.8rem;
+    font-weight: 900;
+}
+.c-title p{
+    color: rgb(253, 205, 115);
+   line-height: 1.9rem;
+   text-align: justify;
+   font-size: 1.2rem;
+   font-weight: 900;
+}
+.c-title button{
+    margin-top: 2rem;
+    background-color: rgba(238, 181, 74, 0.548);
+    color: white;
+    font-size: 1.2rem;
+    font-size: 18px;
+    padding: 11px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.c-title button:hover{
+    transition: 0.5s;
+            background-color: rgba(87, 57, 2, 0.5);
+            border-radius: 50%;
+            color: wheat;
+    
+}
+.section-1 {
+    padding: 5rem;
+}
+.section-1 h1{
+    
+    color: white;
+    font-size: 3.7rem;
+    text-align: center;
+    font-weight: 900;
+}
+.section-1 h1 span{
+    color: rgb(197, 162, 96);
+}
+.sobre-nos{
+    background-color: rgba(39, 39, 39, 0.425);
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 2rem;
+}
+.sobre-nos img{
+    padding: 2rem 0rem;
+    max-width: 100%;
+    width: 70rem;
+    height: auto;
+}
+.sobre-title{
+    margin-left: 1.3rem;
+}
+.sobre-title h2{
+    
+    color: white;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.sobre-title p{
+    margin-top: 2rem;
+    color: white;
+     line-height: 2rem;
+     font-weight: 800;
+     width: 45rem;
+}
+     .sobre-title button{
+         margin-top: 2rem;
+         background-color: rgba(238, 181, 74, 0.548);
+         color: white;
+         font-size: 1.2rem;
+         font-size: 18px;
+         padding: 11px 10px;
+         cursor: pointer;
+         border-radius: 5px;}
+         
+         .sobre-title button:hover{
+            transition: 0.5s;
+            background-color: rgba(87, 57, 2, 0.5);
+            border-radius: 50%;
+            color: wheat;
+         }
+         .section-2 h1{
+            color: white;
+            font-size: 3.7rem;
+            text-align: center;
+            margin-top: 4rem;
+         }
+         .section-2 span{
+            color: rgb(153, 130, 87);
+         }
+         .container-car-1{
+            display: flex;
+           justify-content: space-evenly;
+           flex-wrap: wrap;
+           margin-top: 2rem;
+           margin-bottom: 1rem;
+
+         }
+         .card-img{
+            border: solid rgba(245, 222, 179, 0.233);
+            padding: 5rem;
+            align-items: center;
+            text-align: center;
+            max-width: 100%;
+            width: 25rem;
+            height: 23rem;
+         }
+         .card-img img{
+            width: 120px;
+            height: auto;
+         }
+         .card-img h3{
+            font-size: 1.5rem;
+            color: white;
+         }
+         .card-img p{
+            color: white;
+           font-size: 1.8rem;
+           margin-top: 1rem;
+         }
+         .card-img p span{
+            color: rgb(110, 85, 39);
+            font-size: 1.3rem;
+            margin-left: 0.8rem;
+            text-decoration: line-through;
+         } 
+         .card-img button{
+            margin-top: 1rem;
+            background-color: rgba(238, 181, 74, 0.548);
+            color: white;
+            font-size: 1.2rem;
+            padding: 10px;
+            cursor: pointer;
+         }
+         .card-img button:hover{
+            transition: 0.5s;
+            background-color: rgba(87, 57, 2, 0.5);
+            border-radius: 50%;
+            color: wheat;
+            font-size: 20px;
+            
+         }
+         
+       .card-img:hover{
+            transform: scale(1.1);
+            transition: 0.5s all; 
+            background-color: rgba(158, 145, 120, 0.096);
+
+       } 
+       .container-car-2{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+       } 
+       .section-3 h1{
+        color: white;
+        font-size: 2.9rem;
+        text-align: center;
+        margin-top: 4rem;
+       }
+       .section-3 h1 span{
+        color: rgb(153, 130, 87);
+       }
+       .cards{
+        margin-top: 3rem;
+        border:solid 1px rgb(139, 105, 61);
+        text-align: center;
+        width: 25rem;
+        height: 23rem;
+        
+
+       }
+
+       .cards:hover{
+        transition: 0.3s;
+        transform: scale(1.1);
+        transition: 0.5s all; 
+        background-color: rgba(158, 145, 120, 0.096);
+
+       }
+
+       .c-card{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        
+       }
+
+     .icons{
+         margin-top: 1rem;
+         font-size: 20px;
+         color: wheat;
+         
+         }
+         .icons a:hover{
+            transition: 0.3s;
+            color: rgb(102, 81, 14);
+         }
+
+         .icons a{
+             color: wheat;
+             padding: 0px 15px;
+             }
+             .cards img{
+        
+                margin-top: 1rem;
+                width: 30%;
+                height: auto;
+             }
+             .tritle-produtos h3 {
+                color: aliceblue;
+                font-size: 1.3rem;
+                margin-top: 1rem;
+                
+             }
+             .stars{
+                margin-top: 0.8rem;
+             }
+             
+             a {
+                color: rgb(255, 208, 0);
+               
+             }
+             .price{
+                color: wheat;
+               font-size: 1.4rem;
+             }
+             .price span{
+                font-size: 1rem;
+                color: chocolate;
+                text-decoration: line-through;
+             }
+             .clientes h1{
+                color: white;
+                font-size: 2.8rem;
+                margin-top: 5rem;
+                text-align: center;
+             }
+             .clientes h1 span{
+                color: rgb(99, 90, 62);
+             }
+             .container-av{
+                display: flex;
+                justify-content: space-evenly;
+                
+                
+             }
+             .avaliacao{
+                margin-top: 4rem;
+                max-width: 100%;
+                border: solid 2px rgba(245, 222, 179, 0.233);
+                height: 25rem;
+                width: 23rem;
+                text-align: center;
+                margin-bottom: 2rem;
+                
+             }
+             .text-avaliacao{
+                color: wheat;
+                font-size: 1.2rem;
+                margin-top: 1.3rem;
+               text-align: center;
+             }
+             
+             .img-cliente img{
+                margin-top: 3rem;
+                width: 20%;
+             }
+             .img-d img{
+                width: 20%;
+                margin-top: 2rem;
+             }
+             
+             
+             
+             
+             
+             
+       
